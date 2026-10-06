@@ -4,6 +4,8 @@
 
 HOPPER-G is a training-free method that builds the input context for small language models (0.6B–4B parameters) in multi-hop question answering. It links retrieved documents into a graph (document A → document B when a sentence of A mentions the title of B), searches for an evidence path starting from the documents the question mentions, and gives the model the sentences on that path, either alone or together with the sentences selected by HOPPER. The goal is to keep the evidence while removing unrelated sentences that distract small models. Context construction runs on a CPU without any trained model.
 
+Related follow-ups: [WHEN-TO-COMPRESS](https://github.com/sungchul02/WHEN-TO-COMPRESS) (when and how much to compress) and [AGENT-CONTEXT](https://github.com/sungchul02/AGENT-CONTEXT) (multi-step retrieval agents).
+
 **The code will be added when the paper is released.** It will include the context construction code, prompts, evaluation question IDs, model digests and run records.
 
 ---
