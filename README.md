@@ -17,7 +17,7 @@ The paper is organized by condition rather than by dataset. It examines when the
 | Conditional compressor | Path rules chosen by link type, hop count and model size; evaluation on real retrieval; budget rule; comparison with model-based document selection | Planned |
 | Offline maintenance-document QA | Application to documents that cite each other by section number | Planned |
 
-The questions of [WHEN-TO-COMPRESS](https://github.com/sungchul02/WHEN-TO-COMPRESS) and [AGENT-CONTEXT](https://github.com/sungchul02/AGENT-CONTEXT) now continue in the conditional-compressor work.
+Related: [WHEN-TO-COMPRESS](https://github.com/sungchul02/WHEN-TO-COMPRESS) (compression budget and input length for small models) and [AGENT-CONTEXT](https://github.com/sungchul02/AGENT-CONTEXT) (document selection for multi-step agents).
 
 ---
 
