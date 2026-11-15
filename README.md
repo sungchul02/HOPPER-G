@@ -17,8 +17,6 @@ The paper is organized by condition rather than by dataset. It examines when the
 | Conditional compressor | Path rules chosen by link type, hop count and model size; evaluation on real retrieval; budget rule; comparison with model-based document selection | Planned |
 | Offline maintenance-document QA | Application to documents that cite each other by section number | Planned |
 
-Related: [WHEN-TO-COMPRESS](https://github.com/sungchul02/WHEN-TO-COMPRESS) (compression budget and input length for small models) and [AGENT-CONTEXT](https://github.com/sungchul02/AGENT-CONTEXT) (document selection for multi-step agents).
-
 ---
 
 HOPPER-G는 멀티 홉 질의응답에서 4비트 소형 언어모델의 입력 문맥을 구성하는 방법이며, 학습이 필요 없다. 문맥 안의 문서 사이에 제목 언급 관계로 그래프를 만들고, 질문이 제목을 언급한 문서에서 출발하는 최대 3개 문서의 경로 위 문장을 입력한다. 경로가 없으면 HOPPER가 고른 문장을 쓴다. 압축은 신경망 호출 없이 CPU에서 동작한다.
